@@ -1,0 +1,17 @@
+
+    <div *ngFor="let country of countries" [ngClass]="country.code=='AZ'?'style2':'style3'">
+        
+        <div *ngIf="[country.code]=='BS'" class="style1">
+            Name : {{country.name}}   Code: {{country.code}}
+        </div>
+        <div *ngIf="[country.code]=='BH'" class="style4">
+            Name : {{country.name}}   Code: {{country.code}}
+        </div>
+        <div *ngIf="[country.code]=='AF'">
+            Name : {{country.name}}   Code: {{country.code}}
+        </div>
+        Name : {{country.name}}   Code: {{country.code}}
+
+    </div>
+
+    

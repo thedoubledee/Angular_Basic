@@ -1,0 +1,11 @@
+<app-header (header_click)="message=$event"></app-header>
+<div class="container-fluid" style="text-align: center; padding-top:40px">
+    <div class="welcome" >
+        <p>  <img src="favicon.ico"> <br>
+        Welcome to Angular Basics !
+    </div>
+    <p class="click-m">Click on Above links for routing demo
+    <p>   <router-outlet ></router-outlet>
+</div>
+
+<app-footer (header_click)="message=$event"></app-footer>

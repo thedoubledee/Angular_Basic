@@ -1,0 +1,6 @@
+.bimg{
+    width:0 auto;
+    background-image: url("/assets/intro.jpg");
+    color: gainsboro;
+    text-align: center;
+}
